@@ -1,0 +1,7 @@
+    .header {
+        
+        height: 52px;
+        display: flex;
+        
+        justify-content: space-between;
+    }

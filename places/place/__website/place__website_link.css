@@ -1,0 +1,19 @@
+.place__website_link {
+    
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    opacity: 1;
+
+}
+
+.place__website_link:hover {
+
+    opacity: 0.5; 
+
+}

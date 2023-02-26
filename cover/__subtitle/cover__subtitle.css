@@ -1,0 +1,18 @@
+.cover__subtitle {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color:  #FFFFFF;
+    width: 360px;
+    margin: 0;
+    z-index: 2;
+
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+    opacity: 0.8;
+   
+}

@@ -1,0 +1,71 @@
+@import url(./normalize.css);
+@import url(./vendor/fonts/Inter-Web/inter.css);
+@import url(./blocks/main.css);
+
+@import url(./header/header.css);
+@import url(./images__photo-grid/header-logo.svg);
+@import url(./header/__lang-link/header__lang-link_en.css);
+@import url(./header/__lang-link/header__lang-link.css);
+@import url(./header/__links/header__links.css);
+
+@import url(./section/section.css);
+
+@import url(./lead/lead.css);
+@import url(./lead/__title/lead__title.css);
+@import url(./lead/__subtitle/lead__subtitle.css);
+@import url(./lead/__image/lead__image.css);
+@import url(./lead/__caption/lead__caption.css);
+
+
+@import url(./intro/intro.css);
+@import url(./intro/__title/intro__title.css);
+@import url(./intro/__text/intro__text.css);
+@import url(./intro/__list/intro__list.css);
+
+@import url(./photo-grid/photo-grid.css);
+@import url(./photo-grid/__item/photo-grid__item.css);
+
+
+@import url(./places/places.css);
+@import url(./places/place/__title/place__title.css);
+@import url(./places/place/__website/place__website_link.css);
+@import url(./places/place/__website/place__website_url-heading.css);
+@import url(./places/place/__paragraph/place__paragraph.css);
+@import url(./places/place/__paragraph/place__paragraph_second.css);
+@import url(./places/place/__photo/place__photo.css);
+@import url(./places/place/place.css);
+@import url(./places/__links/places__links.css);
+
+@import url(./places/place/__paragraphs/place__paragraphs.css);
+@import url(./places/place/__websites/place__websites.css);
+
+@import url(./cover/__title/cover__title.css);
+@import url(./cover/cover.css);
+@import url(./cover/__overlay/cover__overlay.css);
+@import url(./cover/__subtitle/cover__subtitle.css);
+
+
+
+@import url(./footer/__column-links/footer__column-links.css);
+@import url(./footer/__link/footer__link.css);
+@import url(./footer/__copyright/footer__copyright.css);
+@import url(./footer/footer.css);
+@import url(./footer/__links/footer__links.css);
+@import url(./cover/__link/cover__link.css);
+
+body {
+    background: #2A2C2F; 
+}
+
+
+
+
+
+
+
+
+
+
+
+@import url(./lead/__image/__image.css);
+
