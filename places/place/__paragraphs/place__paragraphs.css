@@ -1,4 +1,12 @@
 .place__paragraphs {
 
-   order: 4;
+   grid-area: paragraphs;
+   color: #FFFFFF;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 163%;
+   
+ 
 }

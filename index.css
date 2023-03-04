@@ -1,6 +1,9 @@
 @import url(./normalize.css);
 @import url(./vendor/fonts/Inter-Web/inter.css);
-@import url(./blocks/main.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/main/__narow/main_narow.css);
+@import url(./blocks/section-base/section-base.css);
+
 
 @import url(./header/header.css);
 @import url(./images__photo-grid/header-logo.svg);
@@ -31,7 +34,7 @@
 @import url(./places/place/__website/place__website_link.css);
 @import url(./places/place/__website/place__website_url-heading.css);
 @import url(./places/place/__paragraph/place__paragraph.css);
-@import url(./places/place/__paragraph/place__paragraph_second.css);
+@import url(./places/place/__paragraph_second/place__paragraph_second.css);
 @import url(./places/place/__photo/place__photo.css);
 @import url(./places/place/place.css);
 @import url(./places/__links/places__links.css);
@@ -53,13 +56,26 @@
 @import url(./footer/__links/footer__links.css);
 @import url(./cover/__link/cover__link.css);
 
+
+@import url(./lead/__image/__image.css);
+
+
 body {
     background: #2A2C2F; 
+    
 }
 
 
 
 
+/* МОИ ТОЧКИ ПРОБУЮ ! */ 
+
+@media  (max-width: 1023px) {
+    .main {
+        margin: 28px 48px;
+    }
+}
+    
 
 
 
@@ -67,5 +83,7 @@ body {
 
 
 
-@import url(./lead/__image/__image.css);
+
+
+
 
