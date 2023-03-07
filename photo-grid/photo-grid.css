@@ -16,3 +16,13 @@
    }
 }
  
+@media (max-width: 1023px) {
+
+   .photo-grid {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: calc(100% - 48px);
+      margin: 0 auto;
+      gap: 16px;
+
+   }
+}

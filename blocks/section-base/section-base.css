@@ -1,7 +1,19 @@
 .section-base {
     margin-top: 48px;
+    
+  
 }
 
 .section-base + .section-base {
     margin-top: 92px;
+}
+
+
+
+
+@media (max-width: 1023px) {
+    .section-base + .section-base {
+        margin-top: 88px;
+        
+    }
 }
