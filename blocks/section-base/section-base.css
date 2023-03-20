@@ -1,19 +1,28 @@
 .section-base {
     margin-top: 48px;
-    
+    max-width: calc(100% - 100px*2);
   
 }
 
 .section-base + .section-base {
     margin-top: 92px;
+    
 }
 
 
-
-
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
     .section-base + .section-base {
-        margin-top: 88px;
-        
+    
+        margin-top: 64px;
     }
+    
+    
+}
+
+@media (max-width: 425px) {
+    .section-base {
+        margin: 0 auto;
+        max-width: calc(100% - 32px);
+    }
+      
 }

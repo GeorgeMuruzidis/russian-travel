@@ -1,5 +1,5 @@
 .cover {
-    height: 740px;
+    min-height: 740px;
     width: 100%;
     background-image: url(../images__photo-grid/cover-trains.jpg);
     background-size:cover;
@@ -13,4 +13,12 @@
    
 
 
+}
+
+@media (max-width: 425px) {
+    .cover {
+        min-height: 200px;
+        margin-top: 66px;
+       
+    }
 }

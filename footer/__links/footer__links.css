@@ -4,3 +4,12 @@
     margin-top: 92px;
     align-items: center;
 }
+
+@media (max-width: 425px) {
+    .footer__links {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+        row-gap: 32px;
+    }
+}

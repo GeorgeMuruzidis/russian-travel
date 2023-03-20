@@ -5,6 +5,15 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    
+    display: flex;
 
+}
+
+@media (max-width: 425px) {
+    .footer__copyright {
+        width: 100%;
+        display: flex;
+        
+
+    }
 }

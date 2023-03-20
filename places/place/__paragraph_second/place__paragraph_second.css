@@ -5,3 +5,8 @@
 
 }
 
+@media (max-width: 425px) {
+    .place__paragraph_second {
+        padding-top: 25px;
+    }
+}

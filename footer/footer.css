@@ -5,3 +5,12 @@
    justify-content: space-between;
    
 }
+
+@media (max-width: 425px) {
+   .footer { 
+      flex-wrap: wrap;
+      display: flex;
+      margin: 64px auto 24px 16px;
+      row-gap: 48px;
+   }
+}
